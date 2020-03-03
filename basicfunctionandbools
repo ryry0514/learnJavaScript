@@ -1,0 +1,12 @@
+function add_numbers(x, y)    
+{
+  var local_result = x + y;
+  console.log("The local result is: " + local_result);
+}
+add_numbers(4, 5);
+console.log(local_result);
+
+//Output
+//"The local result is: 9"
+// Error- local_result is not defined
+
